@@ -35,7 +35,7 @@ From there, the simple UI will load and you can see the connection status, curre
 
 The UI should look something like this:
 
-![screengrab of UI][./docs/wsdemo-sg1.png]
+<img src="./docs/wsdemo-sg1.png" alt="screegrab of UI" />
 
 That's pretty much it!
 
