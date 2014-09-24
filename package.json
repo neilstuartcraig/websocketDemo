@@ -1,0 +1,39 @@
+{
+  "author": {
+    "name": "Neil Craig",
+    "email": "neil.craig@thedotproduct.org",
+    "website": "https://thedotproduct.org"
+  },
+  "name": "tdp-websocket-demo",
+  "description": "A simple, self-contained demo of websockets via socket.io to enabled testing of infrastructure (e.g. load balancers)",
+  "version": "0.1.0-alpha",
+  "license": "CC-BY-SA-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neilstuartcraig/websocketDemo.git"
+  },
+  "bugs": "https://github.com/neilstuartcraig/websocketDemo/issues",
+  "keywords": [
+    "nodejs",
+    "npm",
+    "websocket",
+    "websockets",
+    "javascript"
+  ],
+  "main": "./websocketDemo.js",
+  "dependencies": {
+    "socket.io":">=1.0.0",
+    "express":">=4.0.0"
+  },
+  "devDependencies": {
+    "mocha": ">=1.12.x",
+    "should": ">=1.2.x",
+    "coveralls": ">=2.11.1",
+    "mocha-lcov-reporter": ">=0.0.1",
+    "istanbul": ">=0.2.4"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.10.x"
+  }
+}

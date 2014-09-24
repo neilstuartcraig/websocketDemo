@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<title>
+			Websocket demo
+		</title>
+		<link rel="stylesheet" href="/css/reset.css" />
+		<link rel="stylesheet" href="/css/WSDemo.css" />
+
+		<script src="/socket.io/socket.io.js" defer></script>
+		<script src="/js/zepto.js" defer></script>
+		<script src="/js/WSDemo.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<h1>
+				websocket demo
+			</h1>
+			A tiny, self-contained (no webserver needed) websocket (socket.io) demo which is deployable via npm or git clone. This is intended to make testing infrastructure for websocket functionality a little simpler.
+		</header>
+		
+		<main>
+			<section id="controls">
+				<div id="icons">
+					<div class="icon" id="icon-connection">
+						Server connection status: 
+						<div id="icon-connected" class="icon-inner"></div>
+					</div>
+					
+					<div class="icon icon-neutral" id="icon-current-transport">
+						Current client-server transport: 
+						<div id="icon-transport" class="icon-inner"></div>
+					</div>
+				</div>
+
+				<div id="buttons">
+					<button type="button" id="connectBtn" class="btn">
+						Connect
+					</button>
+					<button type="button" id="disconnectBtn" class="btn">
+						Disconnect
+					</button>
+				</div>
+			</section>
+
+			<section id="message">
+				Send a test message to the server, it will echo it with the date/time received:
+				<form id="mForm" action="/" method="get">
+					<input id="msg" type="text" />
+					<button type="button" id="sendBtn" class="btn">
+						Send a message to the server
+					</button>
+				</form>
+				<br>
+				Server response:
+				<div id="output"></div>
+			</section>
+		</main>
+
+		<footer>
+			<b>Credits:</b> <a href="http://socket.io/">socket.io</a> for websocket library/abstraction used in this demo, <a href="http://expressjs.com/">express</a> which is used (minimally) in the server-side app, <a href="http://www.webdesignerwall.com/demo/css-buttons.html">Web Designer Wall</a> for the button colours<br>
+			<b>Notes:</b> This demo is poorly architected, insecure, fragile and will only work on modern browsers
+		</footer>
+
+	</body>
+</html>
