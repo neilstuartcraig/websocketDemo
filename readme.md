@@ -33,6 +33,10 @@ You then need to open a browser and visit the IP (or you can add a hosts file en
 
 From there, the simple UI will load and you can see the connection status, current trasport and echo app. The echo app is very simple, the server will just echo back what you type in the text box with a date/time after it.
 
+The UI should look something like this:
+
+![screengrab of UI][./docs/wsdemo-sg1.png]
+
 That's pretty much it!
 
 I built this to help test load balancer configs at work to ensure they support everything needed for websockets (very necessary if you have OSI layer >3 load balancing).
