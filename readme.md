@@ -23,7 +23,7 @@ git clone https://github.com/neilstuartcraig/websocketDemo.git
 There is a (tiny) config file in /config of the files deployed. You can amend this if required, the default port (for no particular reason) which the app will listen on is 9001.
 
 ##Running
-You need to invoke the main script which you can do (assuming you're in the root directory of the deployed files) like this:
+You need to invoke the main script which you can do (assuming you're in the root directory of the deployed files - which if you have installed via NPM will be node_modules/tdp-websocket-demo) like this:
 
 ```
 node .

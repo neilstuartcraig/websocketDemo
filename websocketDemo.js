@@ -5,7 +5,8 @@ var fs=require("fs");
 var path=require("path");
 var config=require(path.join(__dirname, "/config/websocketDemoConfig.js"));
 
-server.listen(9001);
+var port=config.server.port || 9001;
+server.listen(port);
 
 app.get('/*', function (req, res)
 {
