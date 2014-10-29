@@ -44,7 +44,7 @@ I built this to help test load balancer configs at work to ensure they support e
 ##Notes/known issues
 
 * The web layout uses native (no browser prefixes) flexbox so it'll probably have some issues on anything except Chrome.
-* Reconnect isn't working after disconnecting. I'm having trouble locating the cause of this, no doubt i'm doing somethign stupid - pull requests/suggestions very welcome
+* Reconnect isn't working after disconnecting when running locally. I'm having trouble locating the cause of this, no doubt i'm doing somethign stupid - pull requests/suggestions very welcome
 
 ##License
 This application is issued under a [Creative Commons attribution share-alike license](http://creativecommons.org/licenses/by-sa/4.0/deed.en_GB).
