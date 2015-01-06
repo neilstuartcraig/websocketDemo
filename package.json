@@ -6,7 +6,7 @@
   },
   "name": "tdp-websocket-demo",
   "description": "A simple, self-contained demo of websockets via socket.io to enabled testing of infrastructure (e.g. load balancers)",
-  "version": "0.1.2-alpha",
+  "version": "0.2.0-alpha",
   "license": "CC-BY-SA-3.0",
   "repository": {
     "type": "git",
@@ -30,7 +30,8 @@
     "should": ">=1.2.x",
     "coveralls": ">=2.11.1",
     "mocha-lcov-reporter": ">=0.0.1",
-    "istanbul": ">=0.2.4"
+    "istanbul": ">=0.2.4",
+    "indexof":"latest"
   },
   "optionalDependencies": {},
   "engines": {
